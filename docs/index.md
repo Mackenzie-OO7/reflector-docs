@@ -5,21 +5,22 @@ layout: home
 hero:
   name: "Reflector Docs"
   text: "A documentation site for Reflector Oracles on Stellar" # Something catchy about what reflector does
-  # tagline: My great project tagline
+  # tagline: 
   actions:
     - theme: brand
       text: How it Works
       link: /markdown-examples
     - theme: alt
       text: Usage Examples
-      link: /api-examples
+      link: /.vitepress/overview/usage-examples
 
 features:
-  - title: Overview
+  - title: Getting Started
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /getting-started
+    link: /.vitepress/overview/getting-started
   - title: How-to Reflector
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /.vitepress/how-to-guides/integrate-oracles
   - title: Tutorials
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
