@@ -3,24 +3,24 @@
 layout: home
 
 hero:
-  name: "Reflector Docs"
-  text: "A documentation site for Reflector Oracles on Stellar" # Something catchy about what reflector does
+  name: "Reflector Oracles"
+  text: "Real-time price feed Oracles on Stellar" # Something catchy about what reflector does
   # tagline: 
   actions:
     - theme: brand
       text: How it Works
-      link: /markdown-examples
+      link: /overview/how-it-works
     - theme: alt
       text: Usage Examples
-      link: /.vitepress/overview/usage-examples
+      link: /overview/usage-examples
 
 features:
   - title: Getting Started
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /.vitepress/overview/getting-started
+    link: /overview/getting-started
   - title: How-to Reflector
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /.vitepress/how-to-guides/integrate-oracles
+    link: /how-to-guides/integrate-oracles
   - title: Tutorials
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---

@@ -2,14 +2,34 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Reflector",
-  description: "A documentation site for Reflector Oracles on Stellar, built with VitePress",
+  title: "Reflector Docs",
+  description: "Real-time price feeds on Stellar",
+  lastUpdated: true,
+  cleanUrls: true,
+  ignoreDeadLinks: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Source Code', link: 'https://github.com/reflector-network' },
-      { text: 'Discord Community', link: 'https://discord.gg/v2ggfDty2d' }
+      { text: 'Source Code', link: 'https://github.com/reflector-network' }
     ],
+
+    search: {
+      provider: "local",
+      options: {
+        detailedView: true,
+      },
+    },
+
+    editLink: {
+      pattern: 'https://github.com/Mackenzie-OO7/reflector-docs.git',
+      text: 'Edit this page on GitHub',
+    },
+
+    // logo: {
+    //   alt: "Reflector Logo",
+    //   light: "",
+    //   dark: "",
+    // },
 
     sidebar: [
       {
@@ -37,7 +57,9 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Mackenzie-OO7/reflector-docs.git' }
+      { icon: 'github', link: 'https://github.com/Mackenzie-OO7/reflector-docs.git' },
+      {icon: 'discord', link: 'https://discord.gg/v2ggfDty2d'},
+      {icon: 'twitter', link: 'https://twitter.com/in_reflector'},
     ]
   }
 })

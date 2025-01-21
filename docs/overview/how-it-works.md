@@ -13,7 +13,7 @@ For on-chain Stellar assets price feed data retrieval Reflector relies on a quor
 
 Other contracts interact with the oracle contract, retrieving data stored by Reflector nodes. Consumers can fetch historical ranges, use cross-price calculation, utilize TWAP averaging, or simply pull the most recent token price depending on the use-case. Check [contract interface](contract-interface.md) section for details on available oracle functions and [examples](usage-examples.md) for practical guidance.
 
-<!-- TODO: insert the image from docs -->
+![How Reflector works](../public/reflector-mechanics.png)
 
 ## Components
 
