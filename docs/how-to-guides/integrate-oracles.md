@@ -14,3 +14,11 @@ Reflector oracles are deployed on both Stellar Testnet and Public networks. Play
 Our price feeds receive updates every 5 minutes. Since Reflector oracles operate non-stop, price data is written to the temporary storage and can be evicted over time. Calling the period() function on the oracle contract will return a guaranteed contract history retention period, usually 24 hours.
 
 Reflector public price feed is free for everyone, without limitations. Don't see the token or a price source you are interested in? Let's talk on Discord or via email, we'll try to help you.
+
+<script setup>
+import PriceFeed from '../.vitepress/components/PriceFeed.vue'
+</script>
+
+<!-- ## Live Price Feed -->
+
+<PriceFeed />

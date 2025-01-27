@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Reflector Oracles"
-  text: "Real-time price feed Oracles on Stellar" # Something catchy about what reflector does
+  text: "Real-time price feed Oracles on Stellar"
   # tagline: 
   actions:
     - theme: brand
@@ -16,12 +16,12 @@ hero:
 
 features:
   - title: Getting Started
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Learn about Reflector Oracles and its use cases
     link: /overview/getting-started
   - title: How-to Reflector
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Follow practical guides to implement and use Reflector Oracles and Subscriptions
     link: /how-to-guides/integrate-oracles
   - title: Tutorials
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Build hands-on projects integrating Reflector Oracles
 ---
 
