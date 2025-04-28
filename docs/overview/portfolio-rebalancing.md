@@ -1,6 +1,5 @@
 ---
-# outline: deep
-title: Portfolio Rebalancing
+description: Portfolio Rebalancing
 ---
 
 # Portfolio Rebalancing

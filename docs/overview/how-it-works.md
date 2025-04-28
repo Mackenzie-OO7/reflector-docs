@@ -1,6 +1,5 @@
 ---
-# outline: deep
-title: How It Works
+description: How It Works
 ---
 
 # How It Works

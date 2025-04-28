@@ -1,6 +1,5 @@
 ---
-# outline: deep
-title: Forced Position Liquidation
+description: Forced Position Liquidation
 ---
 
 # Forced Position Liquidation

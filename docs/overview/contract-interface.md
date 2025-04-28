@@ -1,6 +1,5 @@
 ---
-# outline: deep
-title: Reflector oracle public contract interface
+description: Reflector oracle public contract interface
 ---
 
 # Contract Interface

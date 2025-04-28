@@ -1,6 +1,5 @@
 ---
-# outline: deep
-title: Algorithmic Stablecoin
+description: Algorithmic Stablecoin
 ---
 
 # Algorithmic Stablecoin

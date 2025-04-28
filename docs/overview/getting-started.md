@@ -1,6 +1,5 @@
 ---
-# outline: deep
-title: Getting Started with Reflector
+description: Getting Started with Reflector
 ---
 
 # Getting Started

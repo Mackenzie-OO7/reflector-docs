@@ -1,6 +1,5 @@
 ---
-# outline: deep
-title: Integrate Oracles into your Smart Contract
+description: Integrate Oracles into your Smart Contract
 ---
 
 # Integrate Oracles into your Smart Contract

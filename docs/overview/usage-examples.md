@@ -1,6 +1,5 @@
 ---
-# outline: deep
-title: Usage Examples
+description: Usage Examples
 ---
 
 # Practical examples of Reflector contracts invocation
